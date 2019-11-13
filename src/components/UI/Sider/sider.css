@@ -1,0 +1,62 @@
+.Sider {
+}
+.Sider > .ant-layout-sider-zero-width-trigger {
+  top: 0px !important;
+  color: #4c4848;
+  background: #fefeff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.Sider_trigger {
+  position: absolute;
+  top: 0px;
+  right: -36px;
+  z-index: 100;
+  width: 36px;
+  height: 42px;
+  color: #272626 !important;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: center;
+  /* background: #fefeff; */
+  background: transparent;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.Sider_trigger > * {
+  overflow: hidden;
+}
+.Sider_trigger * {
+  box-sizing: border-box;
+}
+
+.Sider_trigger_hidden {
+  visibility: hidden;
+}
+
+.Logo_container {
+  height: auto;
+  width: 100%;
+}
+.Logo {
+  display: flex;
+  width: 120px;
+  margin: 16px auto;
+}
+
+.Trigger {
+  position: absolute;
+  right: 0px;
+}
+.Trigger_icon {
+  font-size: 32px;
+  color: greenyellow;
+}
+
+.anticon-menu-fold,
+.anticon-menu-fold .trigger {
+  display: none !important;
+}

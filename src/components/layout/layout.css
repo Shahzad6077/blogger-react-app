@@ -1,0 +1,51 @@
+.app-wrapper {
+  height: 100vh;
+  /* position: relative; */
+}
+.Layout {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .Layout {
+    /* margin-left: 200px; */
+  }
+}
+
+.content-wrapper {
+  min-height: auto;
+}
+.content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 41px;
+  background: #fff;
+}
+
+.section {
+  display: grid;
+  grid: auto / 200px 1fr;
+  grid-gap: 0 2em;
+  /* border: 3px solid red; */
+}
+.section p {
+  grid-column: 2 / 3;
+}
+
+.section_title {
+  grid-column: 1 / 2;
+  text-align: right;
+  align-self: start;
+  top: 1em;
+  position: sticky;
+  top: 1em;
+  align-self: flex-start;
+}
+
+.bread-crumb {
+  margin: 16px 34px;
+}
+
+.scrollBar > div:nth-child(3) {
+  top: 100px !important;
+}

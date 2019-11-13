@@ -1,0 +1,15 @@
+export const CREATE_BLOG_INIT = "CREATE_BLOG_INIT";
+export const CREATE_BLOG_SUCCESS = "CREATE_BLOG_SUCCESS";
+export const CREATE_BLOG_FAIL = "CREATE_BLOG_FAIL";
+export const EDIT_BLOG = "EDIT_BLOG";
+
+export const LOGIN_INIT = "LOGIN_INIT";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+
+export const AUTH_INIT = "AUTH_INIT";
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const SIGNUP_FAIL = "SIGNUP_FAIL";
+
+export const SEEN_NOTIFICATION = "SEEN_NOTIFICATION";

@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.waitingPageImage {
+  width: 20%;
+  height: auto;
+}
+@media and (min-width: 700px) {
+  .waitingPageImage {
+    width: 10%;
+  }
+}
+@media (max-width: 600px) {
+  .waitingPageImage {
+    width: 35%;
+  }
+}
+/* ant design  overwrites styles */
+
+/* Inline #0 | http://localhost:3000/ */
+
+.ant-layout-sider-zero-width-trigger,
+.ant-layout-sider-zero-width-trigger-left {
+  /* top: 64px; */
+  /* color: #fff; */
+  /* background: #001529; */
+  top: 0;
+  color: #001529;
+  background: #fff;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
